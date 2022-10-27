@@ -8,7 +8,7 @@ version = "1.0.0"
 id = "spin_http"
 source = "target/generated/wasm/teavm-wasm/classes.wasm"
 allowed_http_hosts = [ "https://raw.githubusercontent.com" ]
-environment = { URL = "https://raw.githubusercontent.com/dicej/dicej/master/jabberwocky.txt" }
+environment = { URL = "https://raw.githubusercontent.com/Albertoimpl/spin-teavm-example/main/jabberwocky.txt" }
 files = [{ source = "static-assets/", destination = "/" }]
 
 [component.trigger]

@@ -39,7 +39,7 @@ public class SpinHttpImpl {
         status = 200;
         Response response = result.getOk();
         if (response.status == (short) 200) {
-          body = "Por tu consideración, un poema:\n\n" + new String(response.body, UTF_8) + "\n";
+          body = "Hello SpringOne here is a poem:\n\n" + new String(response.body, UTF_8) + "\n";
         } else {
           body = "Una respuesta inesperada: " + url + ": " + response.status + "\n";
         }

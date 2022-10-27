@@ -1,5 +1,15 @@
 # spin-teavm-example
 
+
+## TL;DR
+
+```sh
+./spin build
+./spin up
+./spin deploy
+```
+
+## Intro
 This is a example demonstrating how to use [TeaVM-WASI](https://github.com/fermyon/teavm-wasi), [wit-bindgen](https://github.com/bytecodealliance/wit-bindgen), and [Spin](https://github.com/fermyon/spin) to build and run a simple stateless web service in Java, targetting WebAssembly
 
 ## Prerequisites
